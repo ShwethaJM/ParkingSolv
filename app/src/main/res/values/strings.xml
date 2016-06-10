@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ParkingSolv</string>
+    <string name="name">Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="carNo">Car Number</string>
+    <string name="licenseNo">License Number</string>
+    <string name="DOB">Date of Birth</string>
+    <string name="profilePic">Profile Picture</string>
+    <string name="carNoPlate">Car Number Plate Picture</string>
+    <string name="interests">Interests</string>
+    <string name="submit">Submit</string>
+    <string name="home">Home</string>
+    <string name="confReserveText">Your parking spot is reserved!</string>
+    <string name="confParkId">Your parking ID is:</string>
+    <string name="confMsg">Show this to parking assistant at the mall</string>
+
+</resources>
