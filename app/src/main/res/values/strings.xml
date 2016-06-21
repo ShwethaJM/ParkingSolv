@@ -13,5 +13,9 @@
     <string name="confReserveText">Your parking spot is reserved!</string>
     <string name="confParkId">Your parking ID is:</string>
     <string name="confMsg">Show this to parking assistant at the mall</string>
+    <string name="offerMsg">Enjoy loads of offers in <u>offers</u> page</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

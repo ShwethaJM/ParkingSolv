@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.android.parkingsolv.TodayOffersFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/todayOffer1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="@color/colorPrimary"
+        android:text="* Offer 1 (highlights about the offer)"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+         />
+    <TextView
+        android:id="@+id/todayOffer2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/todayOffer1"
+        android:textColor="@color/colorPrimary"
+        android:text="* Offer 2 (highlights about the offer)"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/todayOffer3"
+        android:layout_below="@+id/todayOffer2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="@color/colorPrimary"
+        android:text="* Offer 3 (highlights about the offer)"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/todayOffer4"
+        android:layout_below="@+id/todayOffer3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="@color/colorPrimary"
+        android:text="* Offer 4 (highlights about the offer)"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/todayOffer5"
+        android:layout_below="@+id/todayOffer4"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="@color/colorPrimary"
+        android:text="* Offer 5 (highlights about the offer)"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home"
+        android:id="@+id/todayOfferHomeButton"
+        android:background="@drawable/components_broders_style"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
